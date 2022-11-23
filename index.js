@@ -1,0 +1,1 @@
+function MakeCanvas() {     let canvas = document.getElementById("myCan") ;     let ctx = canvas.getContext('2d') ;     ctx.strokeRect(150,150,40,40) ;     ctx.fillStyle = randomColor() ;}
